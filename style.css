@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background: linear-gradient(323deg, rgba(225,225,229,1) 1%, rgba(249,253,255,1) 80%); }
+
+#pagina {
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 65px;
+    
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#capa {
+    width: 325.5px;
+    height: 434px;
+    border-radius: 50px 0px 50px 0px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+ul a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+h1 {
+    font-size: 49px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    line-height: 56px;
+    width: 489px;
+}
+
+h1 span {
+    font-weight: bold;
+    color: #89C5CC;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    line-height: 28px;
+    width: 389px;
+
+    margin: 40px 0px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+footer a:hover {
+    color: #7D7987;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    background: #69b99d;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px 15px;
+    gap: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: #58a68a;
+}
+
+#bolinhas {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
